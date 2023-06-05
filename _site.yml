@@ -1,0 +1,33 @@
+name: "Vallebueno-LAB"
+keywords: "Maize", ""
+navbar:
+  title: "Miguel Vallebueno Estrada"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Lectures"
+      href: lectures.html      
+  right:
+    - icon: fa-brands fa-linkedin
+      href: www.linkedin.com/in/vallebueno
+    - icon: fa-brands fa-twitter
+      href: https://twitter.com/m_vallebueno
+    - icon: fa-brands fa-google
+      href :https://scholar.google.com/citations?user=o_WYmxQAAAAJ&hl=en
+output: 
+  html_document:
+  #cleanrmd::html_document_clean:
+  #prettydoc::html_pretty:
+    #theme: cayman
+    #highlight: github
+    theme: cosmo
+    highlight: textmate
+    includes:
+      in_header: GA_script.html
+output_dir: docs
